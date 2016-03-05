@@ -3,10 +3,10 @@ import java.util.Random;
 
 public class Main {
 
-  static String vowels[][] = {{"ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅡ", "ㅣ", "ㅑ","ㅕ", "ㅛ", "ㅠ"},
+  static String vowels[][] = {{"\u65E5", "\u65E5", "\u65E5", "\u65E5", "ㅇㄹ", "?", "?", "?", "?", "?"},
                                       {"a","eo","o","u","eu","i","ya","yeo","yo","yu"}};
 
-  static String consonants[][] = {{"ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ","ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ"},
+  static String consonants[][] = {{"???", "???", "????", "???", "???", "???", "???","???", "???", "???", "???", "???", "???", "???"},
                                         {"g","n","d","r/l","m","b","s","silent/..ng","j","ch","k","t", "p", "h"}};
 
   static Random rand = new Random();
